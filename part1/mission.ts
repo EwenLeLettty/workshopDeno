@@ -5,7 +5,7 @@ export async function mission(agents : {name?: string, code: number}[]): Promise
                 return reject('Bad agent');
             if (item.code == 0.07)
                 return resolve(true);
-            return resolve(false);
         };
+        return resolve(false);
     });
 }
